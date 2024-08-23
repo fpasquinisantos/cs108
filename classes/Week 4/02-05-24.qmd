@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-05-24 (Monday)
+
+{{< include /prayers/kyrie-in-work.qmd >}}
+
+# Announcements
+
+{{< include /pogil.qmd >}}
+
+# POGIL Activity - Branching/Conditionals
+
+[Click here to access the file](/units/04/activities/Act04-Conditions_Student.pdf).
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

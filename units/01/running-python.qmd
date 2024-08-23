@@ -1,0 +1,46 @@
+::: {.content-visible unless-format="revealjs"}
+# Running Python   <a href="/units/01/show/running-python-p.qmd" target="_blank">{{< bi play-btn >}}</a>
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>1.7 RUNNING PYTHON</b>"}
+:::
+
+Try:
+
+-   Saving some previous code as `program.py`
+-   Open a command-line interface in your computer and run: `python3 program.py`
+    -   You need to have python3 installed in your machine
+    -   You need to be in the directory of the file `program.py`
+
+Python can be run in two modes:
+
+::: columns
+::: {.column width="50%"}
+### Script / Program
+
+-   All lines of code executed without stop
+-   Run in command-line as `python3 program.py`
+-   Only print what is specifically passed through `print()`
+:::
+
+::: {.column width="50%"}
+### Interactive shell
+
+-   Run lines of code each at a time, as user enters them
+-   Open in command-line just by typing `python3`
+-   Typing an expression without being assigned to a variable will "print" the result
+:::
+:::
+
+## Integrated Development Environment (IDE) {data-name="IDE"}
+
+-   In our classes, we will be using [Thonny](https://thonny.org/)
+    -   Notice the panels for scripting and for interactive shell
+    -   There is also a helper and variable explorer for debugging code
+
+::: {.content-visible when-format="revealjs"}
+![](/img/thonnyOverview.png)
+
+:::

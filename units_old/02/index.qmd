@@ -1,0 +1,26 @@
+---
+title: "2: Expressions"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, October 27: POGIL Activity
+
+-   Monday, October 30: [Concept review 2](concepts.html)
+
+-   Tuesday, October 31: [Lab 02](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, November 1: [Examples and discussion 2](examples.html)
+
+# Deadlines:
+
+-   [zyBooks Reading 2](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Monday,October 30
+
+-   [Lab 2](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday,November 1
+
+-   [Perusall Perspectives Reading 2](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday,November 3
+
+-   [Homework 1](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Monday,November 6
+

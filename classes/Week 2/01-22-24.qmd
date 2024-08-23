@@ -1,0 +1,28 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-22-24 (Monday)
+
+{{< include /prayers/go-and-work.qmd >}}
+
+# Announcements
+
+- Check attendance (just to see if everyone enrolled is here)
+
+{{< include /pogil.qmd >}}
+
+# POGIL Activity - Arithmetic Expressions
+
+[Click here to access the file](/units/02/activities/Act02-Arithmetic_Student.pdf).
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

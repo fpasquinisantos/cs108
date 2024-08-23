@@ -1,0 +1,25 @@
+---
+title: "3: Types"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, November 3: POGIL Activity
+
+-   Monday, November 6: [Concept review 3](concepts.html)
+
+-   Tuesday, November 7: [Lab 03](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, November 8: [Examples and discussion 3](examples.html)
+
+# Deadlines:
+
+-   [zyBooks Reading 3](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, November 10
+
+-   [Lab 3](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday, November 8
+
+-   [Perusall Perspectives Reading 3](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday, November 10
+
+

@@ -1,0 +1,10 @@
+# About POGIL
+
+POGIL is an acronym for Process Oriented Guided Inquiry Learning.
+
+During these activities, we will form teams of three:
+- a programmer (runs the exercises in Thonny)
+- a recorder (writes the team's answers to the exercises)
+- a manager/presenter (keeps the team on track; interacts with class)
+
+You can write the exercises in paper or generate a pdf to fill. Just don't forget to share it with your teammates after class!

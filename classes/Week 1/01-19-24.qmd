@@ -1,0 +1,62 @@
+---
+format:
+  html:
+    number-sections: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# 01-19-24 (Friday)
+
+*From the lectionary reading, Psalm 62:5-12*
+
+> 5 Yes, my soul, find rest in God; my hope comes from him. 6 Truly he is
+my rock and my salvation; he is my fortress, I will not be shaken. 7 My
+salvation and my honor depend on God\[a\]; he is my mighty rock, my
+refuge. 8 Trust in him at all times, you people; pour out your hearts to
+him, for God is our refuge.
+> 9 Surely the lowborn are but a breath, the highborn are but a lie. If
+weighed on a balance, they are nothing; together they are only a breath.
+10 Do not trust in extortion or put vain hope in stolen goods; though
+your riches increase, do not set your heart on them.
+> 11 One thing God has spoken, two things I have heard: “Power belongs to
+you, God, 12 and with you, Lord, is unfailing love”; and, “You reward
+everyone according to what they have done.”
+
+# Announcements
+
+-   Attention to homework assignments - individual, check deadlines
+-   See if Perusall is working
+
+{{< include /units/01/objects-variables.qmd >}}
+
+{{\< include /units/01/assignments.qmd}}
+
+{{< include /units/01/input-output.qmd >}}
+
+{{< include /units/01/running-python.qmd >}}
+
+# Activity: practicing with Thonny
+
+-   Try practicing running some programs as script and as interactive
+    shell.
+
+-   Try running the debug tool to see your code executing step by step
+
+-   Check all the panels and how they can be useful for you
+
+-   **Reflection**: How do you feel working with these interfaces? Would
+    a graphical interface be better?
+
+<input value='Print' type='button' onclick='handlePrint()' />
+
+```{=html}
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>
+```

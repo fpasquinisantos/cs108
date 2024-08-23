@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-19-24 (Monday)
+
+{{< include /prayers/prayer-for-automation.qmd >}} ###############
+
+{{< include /units/07/operator-overloading.qmd >}}
+
+{{< include /units/07/inheritance.qmd >}}
+
+{{< include /units/07/activities/shapes-and-areas.qmd >}}
+
+{{< include /units/07/network-power.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

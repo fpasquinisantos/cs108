@@ -1,0 +1,28 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-02-24 (Friday)
+
+{{< include /prayers/prayer-responsibility.qmd >}}
+
+{{< include /units/03/tuples.qmd >}}
+
+{{< include /units/03/strings.qmd >}}
+
+{{< include /units/03/dictionaries.qmd >}}
+
+{{< include /units/03/activities/lab-tips.qmd >}}
+
+{{< include /units/03/activities/information-society.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

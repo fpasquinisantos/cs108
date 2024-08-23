@@ -1,0 +1,79 @@
+::: {.content-visible unless-format="revealjs"}
+# Objects and Variables   <a href="/units/01/show/objects-variables-p.qmd" target="_blank">{{< bi play-btn >}}</a>
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>1.4 OBJECTS</b>"}
+:::
+
+-   Python syntax specifies some ways to represent different types of data. A data representation in Python is called an "object".
+
+| Type                            | Object type in Python | Example          |
+|---------------------------------|-----------------------|------------------|
+| Integer number                  | `int`                 | `123`            |
+| Decimal number (floating point) | `float`               | `3.14`           |
+| Logic value                     | `bool`                | `True`, `False`  |
+| Text                            | `string`              | `"Hello World!"` |
+
+## Variables {data-name="variables"}
+
+-   Variables are names we set to refer to objects.
+    -   A not-so-good metaphor: variables are containers for objects
+    -   A better metaphor: objects are houses, variables are addresses of these houses
+
+```{python}
+x = 123  # a variable x that contains the integer value 123
+x = x + 1  # x is updated with the value of x + 1, becoming 124...
+hello = "Hello World!"  # a variable that contains the string "Hello World!"
+is_done = True  # a variable is_done with the logic value True
+```
+
+## Objects x variables {data-name="differences"}
+
+-   It is **very important** to differentiate!
+-   Which of the following are variables and which are objects?
+
+```         
+"hello"
+
+hello
+
+132
+
+var_1
+
+truev
+
+True
+```
+
+## Variable naming conventions in Python {data-name="naming"}
+
+-   They MUST start with a letter or with \_ (underline)
+-   They are case sensitive ('C' is different from 'c')
+-   They can't contain: `{ ( + - * / \ ; . , ?`
+-   They can't have names of words already reserved for other purposes in Python:
+
+![](/img/reserved.png){width=80%}
+
+-   What happens if?
+
+```{python}
+#| error: true
+#| eval: false
+True = 123
+```
+
+```{python}
+#| error: true
+#| eval: false
+"Hello" = world
+```
+
+```{python}
+#| error: true
+#| eval: false
+1stcar = 2000
+```
+

@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-09-24 (Friday)
+
+{{< include /prayers/prayer-responsibility.qmd >}}
+
+# Quiz 2 (in Moodle)
+
+{{< include /units/04/activities/a-nasty-list-error.qmd >}}
+
+{{< include /units/04/comparison-ops.qmd >}}
+
+{{< include /units/04/boolean-ops.qmd >}}
+
+{{< include /units/04/membership-ops.qmd >}}
+
+{{< include /units/04/activities/exercises2.qmd >}}
+
+{{< include /units/04/intelligence.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

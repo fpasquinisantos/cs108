@@ -1,0 +1,95 @@
+# Tips for homework - cryptography
+
+- The function `ord()` will convert a character to its corresponding number in the [ASCII table](https://www.asciitable.com/)
+- Then you can add the increment to this number, and convert it back to a character using `chr()`. For example:
+
+```{python}
+increment = 2
+letter = 'a'
+c_letter = chr( ord(letter) + increment ) # adding the increment and converting back to character
+print(c_letter) # should be 'c'
+```
+
+- Now, the problem is how to make `'z'` cycle back to `'a'` and vice-versa, right?
+- For that, let's transpose `'a'` to 0, and `'z'` to 26. We just remove 97 from the `ord()` value:
+
+```{python}
+#| eval: false
+tr_letter = ord(letter) - 97 # transposed
+c_tr_letter = tr_letter + increment
+```
+
+- Now, notice that if the final letter we get goes over 26, we have gone over `'z'`. To make it go back to `'a'`, then, we just use the *modulus* operation, to get it back to zero when it gets to 26. Again:
+
+```{python}
+#| eval: false
+tr_letter = ord(letter) - 97 # transposed
+c_tr_letter = (tr_letter + increment) % 26
+```
+
+- Now we just add the 97 again to match the ASCII table. In sum:
+
+```{python}
+increment = 2
+letter = 'z'
+tr_letter = ord(letter) - 97 # transposed
+c_tr_letter = (tr_letter + increment) % 26 # adding the increment and limiting to 26
+c_letter = chr( c_tr_letter + 97 )
+print(c_letter) # should be 'b'
+```
+
+- If you want everything in just one line:
+
+```{python}
+#| eval: false
+c_letter = chr(((ord(letter) - 97 + increment) % 26 ) + 97)
+```
+
+# Reviewing some things we saw in lab
+
+## Subscripts of subscripts (Lab 3.1)
+
+- Notice that we have a **list of tuples**. To access individual items, we use **subscripts of subscripts**: `[][][]...`
+
+- How, for example, do we access the 2nd tuple (`('hey', 'ho')`) on the 3rd list inside the list?
+- How do we access the word `ho`?
+
+```{python}
+#| eval: false
+x = [(1,2,'hey'), None, [123, ('hey', 'ho'), 123, {}], [[]], 1]
+```
+
+- How do we access the value the character `'h'` in the word `'hi'` in the dictionary inside the tuple?
+
+```{python}
+#| eval: false
+y = 123, None, 321, {12: True, 'potato': 0, 123:123, 'tomato': 'hi'}
+```
+
+## Lists of objects (Las 3.2)
+
+- We can fill a list with turtles! We started a list with 4 empty spaces, and put the 4 different turtles there.
+
+```{python}
+#| eval: false
+tmnt = 4*[None] # our list of (ninja) turtles
+for i in range(4): # the following code will run 4 times, at each time, variable "i" will have values 0, 1, 2 and 3
+  tmnt[i] = turtle.Turtle()    # create a turtle and assign it to the position "i" in the list
+```
+
+- You can make each turtle do its stuff, then, by calling them `tmnt[<number_of_turtle>].<method...>()`
+
+## Dictionary filling (Lab 3.3)
+
+- Let's make a dictionary with the turtles by name? Suggestion: `"Leonardo", "Michelangelo", "Raphael", "Donatello"`
+
+```{python}
+#| eval: false
+tmnt_names = "Leonardo", "Michelangelo", "Raphael", "Donatello"
+tmnt = {}  # empty dictionary
+for i in range(4):
+  tmnt[tmnt_names[i]] = turtle.Turtle()
+```
+
+- Attention to the assignment `tmnt[tmnt_names[i]]`. See what is happening? We are setting the key to be the string in the list accessed with the index "i".
+- You can now call each turtle by name just by typing, for example, `tmnt['Leonardo'].<method...>()`. Cowabunga!

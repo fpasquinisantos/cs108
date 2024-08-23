@@ -1,0 +1,375 @@
+---
+title: "Final Project"
+format:
+  html: default
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+The final project in CS108 is an opportunity for you to showcase what
+you have learned in this class, and begin applying your newfound
+knowledge and abilities to a problem that interests you personally.
+
+The final project is to be an individual or a small group project,
+although I hope that in either case you consult with others in the class
+and with professors (if possible) for help in design, implementation,
+and debugging.
+
+# Timeline and Milestones
+
+There will be four deliverables for this project, due according to the
+following schedule:
+
+## 1. Forming groups and brainstorming (in class, on Mar 1):
+
+We'll take a moment of class to set the groups right and then talk with each other about what you want to do.
+
+## 2. Project Proposal (SUBMISSION IN MOODLE REQUIRED)
+
+This document should include:
+
+-   A high-level description of the project
+
+-   What might be the main *challenges* you'll have to overcome for this project? What is your plan to tackle them?
+
+-   What might be some of the different pieces of the project that you can work on developing one at a time? Specifically:
+
+    -   What are some of the functions or classes you might use?
+    -   How you might know whether each part is working?
+    -   What data will your project store? What data types will you use, and how?
+-   What you expect the input and output to look like: if it is text, then a quick sample of what it will look like. If it is graphical, a description or sketch of it.
+
+-   The ways a user can alter the run of the program by changing input.
+
+The document should be a Word document, PDF document, or text document (*not* Python code).
+
+It's okay if you don't have everything fully designed; expect the project to take shape as you go. But note that the more work you do on your design, the less time you'll have to spend writing the code (because you'll implement more of it correctly the first time).
+
+## 3. Project Walkthrough (in class)
+You will meet in class or my office to look at what you have
+completed. I will recommend solutions to problems you are having.
+
+Other colleagues can also help. Designate a "consultant" member for you group to rund around the class and give/get suggestions
+
+At least 50% of your code must be complete when we meet.
+
+## 4. Perspectival Reflection (in class)
+We will reflect on the impact of your code under a Christian perspective. More details will be provided in class. A document will be developed after that, which will be part of submission.
+
+## 5. Project Presentation (finals week)
+During our final exam time, those who have presentable work will present their work to the class. You should be able to run your code at this time. If you have concrete results to show, please do so. You may want to have a web page or PowerPoint slides to describe what your project does. For a team project, each team member should contribute to the presentation.
+
+## 6. Project Submission
+
+You will submit your final project code by the end of the day of our final exam time.
+
+::: {.callout-caution}
+Since the problem-solving process is essential and cannot be evaluated on the
+basis of code alone, code submitted without a walkthrough will not be
+graded.
+:::
+
+Submit a ZIP file on Moodle that includes:
+
+- Your code
+
+- If any data is needed to run the code, please either include the data in the ZIP file or provide specific instructions for how to obtain it (e.g., go to a certain URL).
+
+- A screenshot or a very brief video of your project in action.
+
+- The Christian-perspectival analysis of your project, which will follow the Multi-Aspectual Software Evaluation method we are going to present during class.
+
+- A plain-text README.txt file (which you can create using Thonny or another app like Notepad or TextEdit) that looks like:
+
+```
+Title: (a title for your project)
+Author: (your name)
+Objective: 1-2 sentence description of your project's goal
+
+How to demo:
+*Specific instructions for what to do to run through a basic demo
+of the main functionality of your project.* You don't need to show
+off all features here.
+
+Highlights:
+*List a few parts of the program that you're proud of.*
+This could be something tricky you got working or how you organized
+your code.
+
+Process:
+*A one-paragraph summary on your process for creating the code.
+Include at least one specific difficulty that you encountered
+and how your overcame it.*
+
+Testing:
+*What steps could someone do to check that your code works correctly?*
+For example, if your program used to have a bug but now you fixed it,
+describe how you can test that it's fixed.
+(If you use assert statements, running the code may suffice.)
+
+Sharing: Would you be okay with sharing your project, and if so, how?
+- Ideally we'd make a public gallery with all projects, screenshots, and code, but you could choose to:
+  - Go anonymous (answer "anon" or "names")
+  - Don't share code? (answer "code" or "screenshots" or "just title")
+  - Restrict to just future students (answer "public" or "students").
+```
+
+# Some Tips
+-   It is better to choose a final project that is **not overly complex and get it right** than it is to choose a project that is too complex and not finish it.
+
+-   I recommend that you find a project that you can **implement in stages**, so that at multiple points you can have a “finished” project, and then decide if you want to or have time to proceed to the next stage. If you choose this route, it would be best to document these stages in your design document.
+
+-   Remember to use assert to test your functions. For example:
+
+```{python}
+#| execute: false
+
+def double(x):
+    return x * 2
+
+def is_close(x, y):
+    return abs(x - y) < .001
+
+assert is_close(double(2), 4)
+assert is_close(double(3), 6)
+```
+
+# Grading
+
+- 2%: Project Proposal Submission
+- 5%: Project Presentation
+- 13% Submission
+    - ZIP file includes a README with all elements given above, and describes a simple and clear way to test that the code is complete and correct
+    - ZIP file includes an useful screenshot or brief demo video
+- 50%: Code is complete and correct
+- 10%: Code is well structured: easy to change correctly
+    - major functionality separated into manageable chunks using functions, classes, modules, etc.
+    - clear separation between “frontend” stuff (that uses input()/print/streamlit widgets) and “backend” stuff (that doesn’t).
+    - minimal duplication
+    - constants used for any “magic” numbers
+- 10%: Documentation
+    - variables, functions, function parameters, and classes have clear and consistent names
+    - anything non-obvious has an accurate and sufficient comment and/or docstring
+- 10%: Perspectival Reflection
+
+# Reuse vs Plagiarism
+
+It can be very helpful to find an example we did in class (lab,
+homework, etc.) that is similar to what you want to do and adapt it.
+This is highly encouraged. Just note that you did so in your code
+documentation.
+
+If you intend to use code from other people outside of the class, talk
+to us first and remember that **we’ll grade you on the code you write,
+not on what other people write**. If you do make use of existing code
+and libraries, be sure to clearly **indicate who wrote what parts of the
+code**; using code without proper attribution is a form of plagiarism.
+
+Feel free to discuss ideas with us or with your classmates, but don’t
+copy code (i.e. plagiarize). Here are examples of what plagiarism looks
+like:
+
+-   You find a program online and copy the entire contents of the file
+    into your submission without attribution.
+-   You find code online, and change the variable names.
+-   Your roommate writes some code, which you add to your program. You
+    add documentation that shows you understand the code, but never
+    indicate the source of the code.
+-   Your older sibling sends you a function that will help your program.
+    You add it to your submission without attribution.
+
+Consider these rules of thumb:
+
+-   If you found it efficient to use copy/paste to create some portion
+    of your application, you must supply documentation that indicates
+    the original source of the code.
+-   If the moment you figure out how to do something occurs while you
+    are looking at a website, you should document that website.
+-   Note that these rules of thumb apply to the code supplied in this
+    course’s materials as well.
+
+Finally, just *don't cheat*. Let's build a relationship on mutual trust.
+If we start to have to be suspicious of one another, we can't go too
+far. And, obviously, you'll also not learn (which can arrange you
+problems later).
+
+# Project Ideas
+
+## General ideas
+
+-   Focus on stuff you like.
+        - E.g., teach a concept from an area of interest to you. e.g., find a YouTube video that explains something (like one of the excellent [3blue1brown](https://www.youtube.com/c/3blue1brown) videos or others), make an interactive version of that explanation.
+-   [Peter Norvig's *PyTudes*](https://github.com/norvig/pytudes) are an
+    EXCELLENT SOURCE of ideas and examples.
+-   [Automate the Boring Stuff](https://automatetheboringstuff.com/) - a nice online book with practical project ideas (just don't copy, be inspired by them).
+-   You can always take something we did together (class, lab, etc.) and extend it in some way.
+
+## Tools
+
+-   A sports event tracker (with score tracker, player statistics, etc.)
+-   A fitness tracker (with workout logging, goal setting, social features, etc.)
+-   A cooking recipe organizer (with meal planning, shopping list
+    generator, etc.)
+-   A currency converter: allows users to input an amount in one
+    currency and convert it to another currency using *real-time
+    exchange rates*.
+-   A content analyzer: getting text and checking for readability, sentiment, and
+    suggesting improvements.
+
+## Sciences
+
+-   Create a star/planets/satellites simulation to model our solar
+    system with actual values for planet masses, distances, etc.
+-   Use [SymPy](https://www.sympy.org/en/index.html) to check someone's
+    algebra and show them what step they made a mistake on.
+-   Iterate over a collection of atoms/molecules and compute whether or
+    not they can (theoretically) combine. If they can combine to form a
+    new molecule, can you determine its official name. Can you use
+    `pymol` to visualize the molecule?
+-   Solve an interesting mathematical problem from
+    [projecteuler.net](https://projecteuler.net/)
+
+## Arts
+
+-   Make beautiful and customizable
+    [fractal](https://medium.com/nerd-for-tech/programming-fractals-in-python-d42db4e2ed33)
+    plots
+-   Jonathan Chaffer's [CS Seminar
+    slides](https://github.com/BeerCityCode/2022/blob/main/talks/GenerativeArtFromZeroToRandom_BCC2022.pdf)
+-   [#genuary](https://twitter.com/hashtag/genuary?src=hashtag_click)
+-   [#RecreationThursday](https://twitter.com/hashtag/RecreationThursday?f=live) ([original
+    pieces](https://github.com/sharlagelfand/RecreationThursday))
+-   [Generative Art at
+    ObservableHQ](https://observablehq.com/collection/@observablehq/generative-art)
+-   [Truchet images \| Ned
+    Batchelder](https://nedbatchelder.com/blog/202208/truchet_images.html)
+-   [generativepy
+    tutorial](https://www.pythoninformer.com/generative-art/generativepy-tutorial/)
+
+## Simulations
+
+-   Simulate a game with emergent behavior, like the Monty Hall Problem or the Prisoner's Dilemma,
+    Game Theory analyses such as in [political
+    polarization](https://blog.emergingscholars.org/2022/11/science-corner-who-is-my-neighbor/),
+    or [Conway's Game of Life](https://playgameoflife.com/).
+-   Simulate a ball being shot out of a cannon and bouncing on the
+    ground. What if the wind picks up? Or gravity increases?
+-   Build a traffic simulation. e.g., can you time traffic lights to
+    maximize flow?
+-   Simulate a predator/prey situation: wolves eat mice, so the mouse
+    population goes down, so the wolf population goes down, so the mouse
+    population goes up, so the wolf population goes up, and so on. Can
+    it be extended to involve 3 species? I want to see graphs! And, it
+    would be nice if it could be based on some actual data (found on the
+    web, or elsewhere).
+-   Simulate a chemical reaction like the Elephant Toothpaste
+
+::: {.callout-important}
+For simulations, it is often best if you can create a class
+representing each of the types of “actors” in your simulation. Then, if
+you create multiple instances of these classes, how do they interact
+with each other? For a simulation project, you must have a hypothesis
+you are trying to test. You cannot just create multiple agents and “see
+what happens.”
+:::
+
+## Games
+
+-   Sample code for a Tic-Tac-Toc game, guessing game, and
+    colliding-particles games are available on request.
+-   In prior years, students have built games including Evil Hangman,
+    Connect Four (based on the tic-tac-toe code), Battleship (using
+    turtle graphics), Minesweeper, etc.
+-   Some simple [modern board games](https://boardgamegeek.com/):
+    Gobblet Gobblers (a tic-tac-toe variant), boop., Glüx, SHŌBU,
+    Quoridor, Deep Sea Adventure, Spot It, Half-Truth, Just One.
+
+## Python libraries you can explore
+
+-   [awesome-python](https://github.com/vinta/awesome-python): a curated
+    list of awesome Python frameworks, libraries, software and
+    resources.
+
+**Interfaces:**
+
+-   **GUI:** [GUIZero](https://lawsie.github.io/guizero/),
+    [PyQt5](https://riverbankcomputing.com/software/pyqt/),
+    [Tkinter](https://docs.python.org/3/library/tkinter.html),
+    [Kivy](https://kivy.org/),
+    [PySimpleGUI](https://pysimplegui.readthedocs.io/)
+
+-   **Web & Mobile:** [CherryPy](https://cherrypy.org/),
+    [Django](https://www.djangoproject.com/),
+    [Flask](https://flask.palletsprojects.com/),
+    [Pyramid](https://trypyramid.com/)
+
+-   **Embedded systems / Electronics:**
+    [MicroPython](https://micropython.org/),
+    [PySerial](https://pythonhosted.org/pyserial/)
+
+**Data Handling and Visualization:**
+
+-   **Files and file system:**
+    [pickle](https://docs.python.org/3/library/pickle.html)
+
+-   **Data handling:** [pandas](https://pandas.pydata.org/)
+
+-   **Data scraping and crawling:** [scrapy](https://docs.scrapy.org/),
+    [RoboBrowser](https://robobrowser.readthedocs.io/)
+
+-   **Visualization:** [Plotly](https://plotly.com/python/),
+    [matplotlib](https://matplotlib.org/),
+
+**Computer Graphics and Simulation:** [vpython](https://vpython.org/),
+[pymunk](https://www.pymunk.org/en/latest/) (physics simulation)
+
+**Multimedia Processing:**
+
+-   **Audio processing:**
+    [Librosa](https://librosa.org/doc/main/index.html),
+    [Aubio](https://aubio.org/),
+    [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/docs/)
+
+-   **Image processing:** [Pillow](https://pillow.readthedocs.io/),
+    [OpenCV](https://docs.opencv.org/),
+    [Scikit-image](https://scikit-image.org/),
+    [Imageio](https://imageio.readthedocs.io/)
+
+-   **Video processing:** [MoviePy](https://zulko.github.io/moviepy/),
+    [OpenCV](https://docs.opencv.org/),
+    [Scikit-Video](http://www.scikit-video.org/stable/),
+    [Imageio](https://imageio.readthedocs.io/)
+
+**Language Processing:** [spaCy:](https://spacy.io/),
+[Transformers](https://huggingface.co/docs/transformers/index),
+[Gensim](https://pypi.org/project/gensim/), [NLTK (Natural Language
+Toolkit):](https://www.nltk.org/)
+
+**Gaming:** [PyGame](https://www.pygame.org/),
+[PyGameZero](https://pygame-zero.readthedocs.io/),
+[Arcade](https://arcade.academy/),
+[adventurelib](https://github.com/JamesPadolsey/adventurelib),
+[Ren'Py](https://www.renpy.org/), [Panda3D](https://www.panda3d.org/)
+
+-   See [a comparison
+    here](https://realpython.com/top-python-game-engines/).
+
+## Datasets you can use
+
+-   [Kaggle Datasets](https://www.kaggle.com/datasets)
+-   [data.gov](https://www.data.gov/)
+-   [Our World in Data](https://ourworldindata.org/)
+-   CORGIS Datasets Project ("The Collection of Really Great,
+    Interesting, Situated Datasets"): <https://think.cs.vt.edu/corgis/>
+-   [NOAA climate
+    data](https://www.ncdc.noaa.gov/cag/time-series/global/globe/land_ocean/1/6/)
+-   [US Geological survey live
+    feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/),
+    including [recent
+    earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php)
+
+# Acknowledgments
+
+These instructions were based on material written for a prior offering
+of this class by Dr. Victor Norman and Dr. Ken Arnold.

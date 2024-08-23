@@ -1,0 +1,56 @@
+---
+title: "3: Concepts"
+execute:
+  echo: true
+format:
+  revealjs:
+    menu: 
+      openButton: false
+    scrollabe: true
+    navigation-mode: linear
+    transition: slide
+    simplemenu:
+      scale: 0.55
+      barhtml:
+        header: "<div class='menubar'><a href='index.html'>back</a><ul class='menu'></ul>"
+revealjs-plugins:
+    - simplemenu
+---
+
+
+
+
+
+
+
+# Catching errors {.smaller data-stack-name="catching errors"}
+
+Suppose I want to access some element in a container which I don't know if it's there. And **if it is not there, I just don't want my program to stop/crash!**
+
+```{python}
+# | error: true
+x = [1,2]
+print(x[2])
+print("Continuing...?")
+```
+
+How to let our code continue running?
+
+## Catching errors {.smaller}
+
+Python lets us to "catch" the error without stopping the program. See:
+
+```{python}
+x = [1,2]
+try:
+  print(x[2])
+except:
+  print("Hey, this index is out of range!")
+print("Anyway, continuing...")
+```
+
+* Inside the "try", you put what you want to "try" (duh)
+* Inside "except", you do whatever is needed for your program to continue working
+  -   For example, warn the user;
+  -   Or, most commonly, take some measures to avoid the situation to not harm the rest of the code execution
+* This also applies for all other error-prone operations we will be doing... (for example, opening nonexistent files, etc).

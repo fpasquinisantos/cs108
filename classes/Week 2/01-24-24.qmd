@@ -1,0 +1,41 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-24-24 (Wednesday)
+
+{{< include /prayers/new-unit.qmd >}}
+
+# Announcements
+
+- Go through some feedback in Moodle
+- Explain Perusall grading
+
+# POGIL Activity - Arithmetic Expressions
+
+- Let's finish Model 3
+
+[Click here to access the file](/units/02/activities/Act02-Arithmetic_Student.pdf).
+
+{{< include /units/02/operators.qmd >}}
+
+{{< include /units/02/overflow.qmd >}}
+
+{{< include /units/02/constants.qmd >}}
+
+{{< include /units/02/math-module.qmd >}}
+
+{{< include /units/02/random-module.qmd >}}
+
+{{< include /units/02/activities/dice-rolling.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

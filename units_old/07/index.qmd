@@ -1,0 +1,25 @@
+---
+title: "7: Classes"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, December 1,2023: POGIL Activity 
+
+-   Monday, December 4: [Concept review 7](concepts.html)
+
+-   Tuesday, December 5: [Lab 07](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, December 6: [Examples and discussion 7](examples.html)
+
+# Deadlines:
+
+-   [zyBooks Reading 7](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, December 8
+
+-   [Lab 7](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday, December 6
+
+-   [Perusall Perspectives Reading 7](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday, December 8
+
+

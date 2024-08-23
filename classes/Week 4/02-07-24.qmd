@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-07-24 (Wednesday)
+
+{{< include /prayers/god-the-maker.qmd >}}
+
+{{< include /units/04/if.qmd >}}
+
+{{< include /units/04/if-else.qmd >}}
+
+{{< include /units/04/elif.qmd >}}
+
+{{< include /units/04/nesting-ifs.qmd >}}
+
+{{< include /units/04/activities/exercises1.qmd >}}
+
+{{< include /units/04/discrimination.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

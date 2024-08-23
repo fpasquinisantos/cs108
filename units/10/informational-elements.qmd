@@ -1,0 +1,24 @@
+::: {.content-visible unless-format="revealjs"}
+# Informational Elements
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>10.5 INFORMATIONAL ELEMENTS</b>"}
+:::
+
+## Text
+
+## ListBox
+
+## Image and Graphics
+
+## Pop-Up Windows / Modal Windows
+
+## Other elements
+
+### Progress Bars / Loaders
+
+### Notifications
+
+### Tool Tips

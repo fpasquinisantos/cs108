@@ -1,0 +1,22 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-23-24 (Friday)
+
+{{< include /prayers/prayer-information-technology.qmd >}}
+
+# Announcements
+
+# Project
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

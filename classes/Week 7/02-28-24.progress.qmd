@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-28-24 (Wednesday)
+
+{{< include /prayers/prayer-for-automation.qmd >}} ##############3
+
+{{< include /units/07/oop.qmd >}}
+
+{{< include /units/07/constructor.qmd >}}
+
+{{< include /units/07/self.qmd >}}
+
+{{< include /units/07/class-methods.qmd >}}
+
+{{< include /units/07/str-method.qmd >}}
+
+{{< include /units/07/activities/a-card-game.qmd >}}
+
+{{< include /units/07/semantic-web.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

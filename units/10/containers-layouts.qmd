@@ -1,0 +1,10 @@
+::: {.content-visible unless-format="revealjs"}
+# Layouts
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>10.7 Layouts</b>"}
+:::
+
+## Box and TitleBox

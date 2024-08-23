@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-31-24 (Wednesday)
+
+Reading from Lectionary, [Malachi 3:1-4](https://www.biblegateway.com/passage/?search=Malachi%203%3A1-4&version=NIV)
+
+{{< include /units/03/built-in-types.qmd >}}
+
+{{< include /units/03/object-methods.qmd >}}
+
+{{< include /units/03/lists.qmd >}}
+
+{{< include /units/03/activities/encoding-information.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

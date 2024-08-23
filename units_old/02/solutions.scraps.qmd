@@ -1,0 +1,20 @@
+```{python}
+'''
+CS108A, Fall, 2018
+Algorithm:
+ Set diameter_inches = a user-entered diameter (a float)
+ Set diameter_centimeters = diameter_inches * 2.54 (centimeters per inch)
+ Compute and print the circumference in cm (PI * diameter_centimeters).
+ Compute and print the area in cm^2 (PI * (diameter_centimeters/2)^2).
+'''
+
+import math
+
+INCHES_TO_CENTIMETERS = 2.54
+
+diameter_inches = float(input('Diameter (in inches): \t'))
+diameter_centimeters = diameter_inches * INCHES_TO_CENTIMETERS
+
+print('circumference (in cm): \t' + str(math.pi * diameter_centimeters))
+print('area (in cm**2): \t' + str(math.pi * (diameter_centimeters / 2)**2))
+```

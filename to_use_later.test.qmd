@@ -1,0 +1,24 @@
+---
+title: "Habits"
+author: "John Doe"
+format:
+  beamer:
+    navigation: vertical
+---
+
+![](/img/assignment.jpg)
+
+# Errors {data-name="errors"}
+
+* A part of life in programming...
+
+![](img/whydoesitwork.jpg)
+
+## Some tips:
+
+* `SyntaxError`: check if you closed quotes, parentheses, etc
+* `NameError`:
+  + Check for misspelling variables
+  + 
+  
+imag

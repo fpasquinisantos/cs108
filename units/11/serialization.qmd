@@ -1,0 +1,14 @@
+CSV files
+
+Pro: tabular data to share with others
+Cons: can’t store nested data; reader has to guess data types (e.g., Bar Harbor, Maine has ZIP code 4609?)
+sometimes better to use Excel (XLSX)
+JSON (JavaScript Object Notation) files
+
+Pros: Used a lot for APIs because…
+Can store nested objects (e.g., board game states)
+Looks like normal Python (actually, JavaScript) code
+Fast; lots of programming languages can work with it
+Con:
+few applications can work with them
+Pickle

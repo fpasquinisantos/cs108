@@ -1,0 +1,21 @@
+10.2
+
+- use of design and aesthetics
+- pitfall of persuasive design and addictive design (perspectives: respecting the human in the economy of attention)
+
+size
+color
+spacing and alignment
+typography
+layout
+
+
+Interaction rips computation out of the clean room of the algorithm and 
+thrusts it into the tainted and unpredictable space of dynamic and shared 
+environment.
+Interaction forces a rethinking of algorithmic approaches toward those that 
+perform a kind of dance alternating between active computation and responsive strategies to a changing environment.
+Embracing interaction requires the programmer or designer to break open 
+the black boxes of algorithmic processes and acknowledge the incompleteness 
+of what they create in the pursuit of experiences that are playful, insightful, 
+and potentially surprising. - Michael Murtaugh, Software studies

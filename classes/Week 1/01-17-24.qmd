@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-17-24 (Wednesday)
+
+{{< include /prayers/starting.qmd >}}
+
+{{< include /units/01/activities/presentations.qmd >}}
+
+# Read syllabus (in website)
+
+{{< include /units/01/program.qmd >}}
+
+{{< include /units/01/computation.qmd >}}
+
+{{< include /units/01/activities/pictionary.qmd >}}
+
+{{< include /units/01/code.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

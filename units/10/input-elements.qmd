@@ -1,0 +1,28 @@
+::: {.content-visible unless-format="revealjs"}
+# Input Elements
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>10.4 INPUT ELEMENTS</b>"}
+:::
+
+## Button
+
+## CheckBox
+
+## Radio Button (ButtonGroup)
+
+## Toggles
+
+## TextBox
+
+## Dropdown Button
+
+## Slider
+
+## Drag and Drop
+
+## Others
+
+### Pickers

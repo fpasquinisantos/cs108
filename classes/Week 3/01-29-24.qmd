@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 01-29-24 (Monday)
+
+{{< include /prayers/prayer-information-technology.qmd >}}
+
+# Announcements
+
+{{< include /pogil.qmd >}}
+
+# POGIL Activity - Data Types
+
+[Click here to access the file](/units/03/activities/Act03-DataStruct_Student.pdf).
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

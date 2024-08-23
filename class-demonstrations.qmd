@@ -1,0 +1,120 @@
+# Class demonstrations
+
+## Random circles in Turtle Grapics
+
+```{python}
+#| eval: false
+import turtle
+import random
+
+MAX_COORD = 300
+COLORS = ['yellow', 'blue', 'red', 'green']
+RADIUS = 25
+
+t = turtle.Turtle()
+
+for i in range(20): # repeat
+    t.fillcolor(COLORS[random.randint(0,3)])
+    t.penup()
+    t.goto(random.randint(-MAX_COORD,MAX_COORD), random.randint(-MAX_COORD,MAX_COORD))
+    t.pendown()
+    t.begin_fill()
+    t.circle(RADIUS)
+    t.end_fill()
+```
+
+## Are you a horse?
+
+```{python}
+#| eval: false
+import turtle
+
+t = turtle.Turtle()
+
+choice = input("Choose between square, circle or both: ")
+if choice.lower() == "square" or choice.lower() == "both":
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+  turtle.right(90)
+  turtle.forward(100)
+if choice.lower() == "circle" or choice.lower() == "both":
+  turtle.circle(50)
+  
+print("Finished!")
+```
+
+## Dog class
+
+```{python}
+class Dog(): # definition of the class ("blueprint")
+  
+  max_age = 20
+  
+  def __init__(self, breed, age, color):
+    self.breed = breed
+    self.age = age
+    self.color = color
+    
+  def eat(self):  # a method (NOTICE THAT IT IS INSIDE THE CLASS DEFINITION)
+    pass  # using "pass" to write it as an empty function (to be filled later)
+  
+  def sleep(self):
+    pass
+  
+  def sit(self):
+    pass
+  
+  def average_color(c1, c2):
+    return c1 + ' and ' + c2
+  
+  def crossbreed(self, dog):
+    if self.breed == dog.breed:
+      puppy = Dog(self.breed,0,Dog.average_color(self.color, dog.color))
+    else:
+      puppy = Dog('mutt',0,Dog.average_color(self.color, dog.color))
+    return puppy
+
+  def __str__(self):
+    return f'breed: {self.breed}, age: {self.age}, color: {self.color}'
+  
+# testing
+a = Dog('pug', 3, 'black')
+b = Dog('boxer', 2, 'white')
+print(a.crossbreed(b))
+```
+
+## Shapes and areas
+
+```{python}
+import math
+
+class Shape:
+    def area(self):
+        return 0
+      
+    def __eq__(self, other):
+        return self.area() == other.area()
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return math.pi * self.radius**2
+
+
+# main chunk
+rectangle = Rectangle(5, 10)
+circle = Circle(3)
+```

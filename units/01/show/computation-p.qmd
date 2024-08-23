@@ -1,0 +1,21 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    menu: 
+      openButton: false
+    slide-level: 2
+    navigation-mode: linear
+    transition: slide
+    scrollable: true
+    smaller: true
+    simplemenu:
+      scale: 0.5
+      barhtml:
+        header: "<div class='menubar'><ul class='menu'></ul><a href=program-p.html><img src='../../../img/arrow-left-square.svg' width='20'></a> <a href=../computation.html><img src='../../../img/arrow-up-square.svg' width='20'></a>  <a href=code-p.html><img src='../../../img/arrow-right-square.svg'width='20'></a></div><div>"
+revealjs-plugins:
+    - simplemenu
+---
+
+{{< include /units/01/computation.qmd >}}

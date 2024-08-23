@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-21-24 (Wednesday)
+
+{{< include /prayers/prayer-for-automation.qmd >}}
+
+{{< include /units/06/abstraction.qmd >}}
+
+{{< include /units/06/functions.qmd >}}
+
+{{< include /units/06/parameters.qmd >}}
+
+{{< include /units/06/return.qmd >}}
+
+{{< include /units/06/scope.qmd >}}
+
+{{< include /units/06/docstrings.qmd >}}
+
+{{< include /units/06/mediality.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

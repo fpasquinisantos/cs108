@@ -1,0 +1,221 @@
+---
+title: "1: Examples and Discussion"
+format:
+  html: default
+---
+
+# Introduction: a pictionary game
+
+-   How difficult it is to describe to someone how to draw something?
+    -   Instructions may be ambiguous
+    -   Different backgrounds, ways of interpreting...
+
+![](img/moises-silvio.gif){width="30%" fig-align="center"}
+
+-   So happens with programming. The drama of programming is the drama of all human communication/expression...
+
+![](img/putpasta.png){width="55%" fig-align="center"}
+
+# Example 1: Drawing a rectangle
+
+-   Say to a computer **"Draw a red rectangle in the top left corner of the screen."**
+
+    -   What shade of red, precisely?
+
+    -   How big should the rectangle be?
+
+    -   Exactly in the top left, or with some padding, and how much?
+
+    -   When should it be drawn?
+
+    -   What is the "top" of the screen on a mobile device that can be rotated?
+
+-   Code in Javascript:
+
+```{javascript}
+// Get the canvas on the webpage that we want to render to.
+let c = document.getElementById("myCanvas");
+// Ask the canvas for an object that knows how to render 2-dimensional graphics onto the canvas.
+let renderer = c.getContext("2d");
+// Set the color to render, then draw a 100 x 100 pixel rectangle.
+renderer.fillStyle = "rgb(255, 0, 0)";
+renderer.fillRect(0, 0, 100, 100);
+```
+
+-   Notice that many things that do not matter when we give instructions to other people actually do matter for the computer. And vice-versa...
+    -   Why is that?
+
+# Example 2: Coding mathematical expressions
+
+-   Write Python code to calculate the Bhaskara formula given the inputs $a$, $b$ and $c$:
+
+$$
+x = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+
+-   Is the following code right? What's wrong with it?
+
+```{python}
+#| echo: true
+#| eval: false
+
+from math import sqrt
+
+a = int(input())
+b = int(input())
+c = int(input())
+
+x1 = ( -b + sqrt(b^2 - 4ac) ) / 2a
+x2 = ( -b - sqrt(b^2 - 4ac) ) / 2a
+```
+
+# Example 3: Coding text
+
+-   Suppose I want to print the following string:
+
+> Gandalf said: "You shall not pass!"
+
+-   Why does the following code doesn't work? What can I do to fix it?
+
+```{python}
+#| echo: true
+#| eval: false
+print(""Gandalf said: "You shall not pass!"")
+```
+
+-   Now, suppose I want to print a poem spanning multiple lines. How can I do that?
+
+> Over hill, over dale, <br> Thorough bush, thorough brier, <br> Over park, over pale, <br> Thorough flood, thorough fire!
+
+Tip: check for Python's [escape characters](https://www.w3schools.com/python/gloss_python_escape_characters.asp)...
+
+# Discussion: computers are actually stupid...
+
+-   Writing code requires us to be really precise and non-ambiguous. It is really nitpicky and doesn't allow even little inaccuracies (which humans can easily disregard...)
+    -   Sometimes what we write makes sense to us, but it doesn't "make sense" to the computer.
+    -   Sometimes it doesn't work and it won't even show the error!
+    -   Sometimes it "works", but I doesn't do exactly what we are thinking it should do... (an illusion of achievement).
+-   Solutions?
+    -   [*code verification and validation*](https://en.wikipedia.org/wiki/Verification_and_validation)
+    -   [**Pair programming**](https://en.wikipedia.org/wiki/Pair_programming): working in pairs (or more) helps us making sure that we are really communicating something that makes sense...
+    -   Maybe better programming language design...?
+
+Opinion: Amy Ko, [*Critically Conscious Computing*](https://criticallyconsciouscomputing.org/languages)
+
+> These efforts to make communication with computers easier, alas, have not resulted in programming being easy, creating a broad cultural belief that programming is inaccessible, hard to learn, and only for"smart" people. In reality, however, programming languages are often poorly designed, poorly explained, and poorly taught, and many of their users gatekeep access to them, reinforcing elitist, essentialist attitudes about who is "smart" enough to use them.
+
+# Example 4: Commenting and documenting code
+
+-   Usually you are not the only one reading your code. And even if that is the case, sometimes you just don't remember exactly what your code does.
+
+-   Thus, every programming language makes available a way to **comment your code**: adding text that does not execute, but is useful for keeping track of what you are doing - and being **transparent** with others about that.
+
+    -   This is a fundamental good programming practice!
+
+## Comments in Python
+
+You can add a comment to a single line:
+
+```{python}
+#| eval: false
+# Comment on a single line
+name = "Pied Piper" # Comment after code
+```
+
+Or, when commenting in multiple lines:
+
+```{python}
+#| eval: false
+# This is a comment written over
+# more than one line
+# simply using multiple '#'s
+
+print("Hello, World!")
+```
+
+or
+
+```{python}
+#| eval: false
+"""
+This is a string written over
+more than one line
+"""
+
+print("Hello, World!")
+```
+
+This last case just "states" a multi-line string that will not be printed if just provided in the middle of the code. Therefore it works as a kind of comment.
+
+::: {.callout-tip title="Tip: enabling and disabling parts of the code"}
+A common practice in programming is adding comment tags (#) to parts of the code you want to temporarily not execute, but don't want to delete completely. Speaking rigorously, you shouldn't do that because that is not the purpose of comments, however, it still helps a lot! Many IDEs, furthermore, have buttons to enable and disable comments given some selected parts of code.
+
+For example, suppose you don't want to ask the user for input and just test with some fixed number (goes faster when executing code for tests):
+
+```{python}
+#| eval: false
+# x = int(input("Please enter your age: "))
+x = 18
+print("Your age is", x)
+```
+
+If you want to "toggle" again user input, just un-comment the input line and comment (or delete) the `x = 18` line!
+:::
+
+For more detail, check this [guide](https://realpython.com/documenting-python-code/). (Later in the course we will go through the docstring stuff for documenting user defined functions.)
+
+# Discussion: Hospitable code
+
+Professor Victor Norman, from Calvin, wrote a nice [article](https://cs.calvin.edu/documents/christian/TeachingHospitableCode.pdf) calling attention to an important practice: we should always aim to write **hospitable code**.
+
+You should read the whole article when you have time, but just to summarize some of the points:
+
+1.  Not only the function, but also the form of the code matters, to me and to God.
+2.  A common saying in the software development community: "code is written once, but read a thousand times".
+3.  Therefore, because you care for your neighbor, you should serve them by making your code hospitable: "code that welcomes the reader to come in and be comfortable, to enjoy the cleanliness of the code, to feel at home, and to see that the space has been carefully prepared with guests in mind."
+
+## Programming style
+
+- Like in any language, style and form makes a BIG difference. One could say that it doesn't matter once it works, however, that is a very narrow way to understand human expression...
+
+- Sometimes there are multiple ways to write code that works, but many of them are not be *hospitable*. As an example:
+
+```{python}
+#| eval: false
+prime_numbers = [x for x in range(2, 101) if all(x % y != 0 for y in range(2, int(x**0.5) + 1))
+```
+
+This is very concise, however, it is not readable. It is a monster of an expression!
+
+What would happen if we just rewrite it like this?
+
+```{python}
+#| eval: false
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+prime_numbers = [x for x in range(2, 101) if is_prime(x)]
+```
+
+It is more code, however, it is much more readable... (Don't care about not understanding all the syntax now, we'll see that later).
+
+- **Some programming style tips:**
+    -   Lack of comments is a problem. But too much commenting is also a problem.
+    -   Bad naming of variables and functions: for example, abstract names as "variable1", or names that don't reflect exactly what is their purpose.
+    -   Spacing usually doesn't matter for the working of code, but it can be a problem for reading.
+    -   **Follow community standards**. Read other people's code and learn. Develop a common understanding.
+        -   *Isn't it good to find yourself in known territory, with same languages, habits, food?*
+        -   An interesting question: could there be some "strange" habits in Python programming for people with cultural backgrounds different from American, white and men?
+    
+Python has a nice [style guide](https://peps.python.org/pep-0008/) available. It is good to consult it once in a while.
+
+## Hospitable code in the scientific and engineering community?
+
+There is a [common perception](https://towardsdatascience.com/7-reasons-why-scientific-software-are-not-well-designed-5b9f38e0027d) that software written for scientific and engineering communities are the worst documented and organized ever. People usually think that since we are dealing with experts, it would be a waste of time to just make things clean and organized.
+
+-   Thus, reflect: as Christians, is it really a waste of time to make things beautiful and welcoming? Or is it just getting to final result that matters?

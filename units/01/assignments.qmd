@@ -1,0 +1,73 @@
+::: {.content-visible unless-format="revealjs"}
+# Assignments <a href="/units/01/show/assignments-p.qmd" target="_blank">{{< bi play-btn >}}</a>
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>1.5 ASSIGNMENTS</b>"}
+:::
+
+When Python sees the operator `=` it does the following:
+
+1.  Evaluates the **right-hand side** (rhs)
+
+    -   The right of the assignment operator can be:
+
+        -   Objects: `age = 21`
+
+        -   Variables: `my_cost = your_cost`
+
+        -   Expressions: `x = (x + 1) * y`
+
+2.  Assigns the resulting object to the variable on the **left-hand side** (lhs)
+
+    -   Only a **single variable** is allowed on the left side!
+
+    -   For example, `x + 1 = 2` is WRONG SYNTAX!
+
+## Compound assignment operators {data-name="compound assignment"}
+
+-   Python and other languages make available a shortcut for performing operations in variables and updating them.
+-   For example,
+
+```{python}
+#| echo: true
+#| eval: false
+w = 5
+w += 1
+print(w)
+```
+
+is the same as:
+
+```{python}
+#| echo: true
+#| eval: false
+w = 5
+w = w + 1
+print(w)
+```
+
+You can use compound assignment with all operators!
+
+```{python}
+#| echo: true
+#| eval: false
+y += 1 # add then assign value
+y -= 1 # subtract then assign value
+y *= 2 # multiply then assign value
+y /= 3 # divide then assign value
+y // = 5 # floor divide then assign value
+y **= 2 # increase to the power of then assign value
+y %= 3 # return remainder then assign value
+```
+
+Example: what will this expression do?
+
+```{python}
+#| echo: true
+#| eval: false
+x *= y - 2
+```
+
+a

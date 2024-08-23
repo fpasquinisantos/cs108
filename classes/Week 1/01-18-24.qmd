@@ -1,0 +1,24 @@
+---
+format:
+  html:
+    number-sections: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# 01-18-24 (Thursday - Lab)
+
+{{< include /prayers/practicing-programming.qmd >}}
+
+{{< include /lab-instructions.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>
+

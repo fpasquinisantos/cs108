@@ -1,0 +1,28 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-16-24 (Friday)
+
+# Lectionary reading
+
+{{< include /units/05/activities/tile-drawing.qmd >}}
+
+{{< include /units/05/list-comprehensions.qmd >}}
+
+{{< include /units/05/activities/accumulators.qmd >}}
+
+{{< include /units/05/activities/flags.qmd >}}
+
+{{< include /units/05/ethics-of-automation.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

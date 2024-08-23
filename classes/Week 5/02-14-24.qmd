@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-14-24 (Wednesday)
+
+{{< include /prayers/pray-vocational-doubt.qmd >}}
+
+{{< include /units/05/repetition-statements.qmd >}}
+
+{{< include /units/05/for.qmd >}}
+
+{{< include /units/05/ranges.qmd >}}
+
+{{< include /units/05/while.qmd >}}
+
+{{< include /units/05/nested-loops.qmd >}}
+
+{{< include /units/05/break-continue.qmd >}}
+
+{{< include /units/05/the-halting-problem.qmd >}}
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

@@ -1,0 +1,25 @@
+---
+title: "6: Functions"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, November 24: Thanksgiving break
+
+-   Monday, November 27: [Concept review 6](concepts.html)
+
+-   Tuesday, November 28: [Lab 06](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, November 29: [Examples and discussion 6](examples.html)
+
+# Deadlines:
+
+-   [zyBooks Reading 6](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, December 1
+
+-   [Lab 6](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday, November 29
+
+-   [Perusall Perspectives Reading 6](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday, December 1
+
+-   [Homework 3](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, December 8

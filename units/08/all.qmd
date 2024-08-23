@@ -1,0 +1,15 @@
+Lists, dictionaries, strings
+
+- Methods
+- Slicing
+- Iterating
+- Nesting
+
+
+# List slicing
+
+# Iterating over lists
+
+# Iterating over dictionaries
+
+- String formatting

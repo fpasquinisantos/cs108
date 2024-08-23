@@ -1,0 +1,21 @@
+---
+title: "6: Examples and Discussion"
+format:
+  html: default
+---
+
+# Introduction: the smiley tower
+
+Download this starter code and complete the following exercises:
+Modify the draw_smiley function to draw the second eye. 
+Modify the main program to add a second smiley face just above the first one. 
+Draw a whole "tower" of smiley faces, alternating colors. 
+Write a function that draws a "tower" of smileys. The function should receive the starting position and the number and size of smileys from the calling program. Use this function to draw several smiley towers. 
+
+# Discussion: the philosophy of usage
+
+## Technologies are media
+
+## Network power
+
+## How should we then live?

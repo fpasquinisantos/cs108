@@ -1,0 +1,26 @@
+---
+format:
+  html:
+    number-sections: true
+---
+
+# 02-19-24 (Monday)
+
+{{< include /prayers/prayer-for-automation.qmd >}}
+
+# Announcements
+
+{{< include /pogil.qmd >}}
+
+# POGIL Activity - Functions
+
+[Click here to access the file](/units/06/activities/Act06-Functions_Student.pdf).
+
+<input value='Print' type='button' onclick='handlePrint()' />
+<script type="text/javascript">
+         const handlePrint = () => {
+            var actContents = document.body.innerHTML;
+            document.body.innerHTML = actContents;
+            window.print();
+   }
+</script>

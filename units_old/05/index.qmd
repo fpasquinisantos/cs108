@@ -1,0 +1,25 @@
+---
+title: "5: Repetition"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, November 17: POGIL Activity
+
+-   Monday, November 20: [Concept review 5](concepts.html)
+
+-   Tuesday, November 21: [Lab 05](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, November 22: Thanksgiving break
+
+# Deadlines:
+
+-   [zyBooks Reading 5](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, November 24
+
+-   [Lab 5](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday, November 22
+
+-   [Perusall Perspectives Reading 5](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday, November 24
+
+

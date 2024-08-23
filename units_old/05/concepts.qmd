@@ -1,0 +1,33 @@
+---
+title: "5: Concepts"
+execute:
+  echo: true
+format:
+  revealjs:
+    menu: 
+      openButton: false
+    scrollabe: true
+    navigation-mode: linear
+    transition: slide
+    simplemenu:
+      scale: 0.55
+      barhtml:
+        header: "<div class='menubar'><a href='index.html'>back</a><ul class='menu'></ul>"
+revealjs-plugins:
+    - simplemenu
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+
+
+
+
+
+
+
+
+
+
+

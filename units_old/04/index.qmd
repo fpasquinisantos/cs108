@@ -1,0 +1,25 @@
+---
+title: "4: Selection"
+format:
+  html: default
+---
+
+# Class sections:
+
+-   Friday, November 10: POGIL Activity
+
+-   Monday, November 13: [Concept review 4](concepts.html)
+
+-   Tuesday, November 14: [Lab 04](https://learn.zybooks.com/zybook/CALVINCS104Fall2023)
+
+-   Wednesday, November 15: [Examples and discussion 4](examples.html)
+
+# Deadlines:
+
+-   [zyBooks Reading 4](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Friday, November 17
+
+-   [Lab 4](https://learn.zybooks.com/zybook/CALVINCS104Fall2023): Wednesday, November 15
+
+-   [Perusall Perspectives Reading 4](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing): Friday, November 17
+
+

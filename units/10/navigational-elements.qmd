@@ -1,0 +1,24 @@
+::: {.content-visible unless-format="revealjs"}
+# Navigational Elements
+
+:::
+
+::: {.content-visible when-format="revealjs"}
+##  {data-name="<b>10.5 NAVIGATIONAL ELEMENTS</b>"}
+:::
+
+## MenuBar
+
+## Others
+
+### Tabs
+like in Thonny
+
+### Breadcrumbs
+
+### Accordions
+
+### Carousel
+James K. A. Smith
+
+### Icons

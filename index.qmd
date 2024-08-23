@@ -1,0 +1,276 @@
+---
+title: "Syllabus"
+format:
+  html:
+    toc-depth: 2
+    toc-expand: 4
+---
+
+> Open my eyes, that I may behold wondrous things out of your law. *Psalm 119.18*
+
+Welcome to CS-108-A, Introduction to Computing!
+
+::: {.callout-note collapse=true}
+
+## Why programming?
+
+- Creation:
+  - Computing is part of God’s world
+    - reveals wisdom and ingenuity on how God made things work (see Isaiah 28:23-29)
+    - is enabling science today (study of God’s world)
+  - The process of breaking down a problem into precise steps can be a form of developing intellectual virtue
+  - Through automation, it can enable human flourishing
+  - There is joy in the process (creative, rewarding, fun)
+- Fall:
+  - It is being centralized into few powerful actors, harming cultural diversity and freedom
+  - It is alienating people from God's good created order
+  - It is being misused for Mammon
+  - Constantly idolized
+- Redemption:
+  - We’re called to follow Jesus in showing God's glory through our cultural activity, which includes computing and its virtuous practice on:
+    - imagining
+    - designing
+    - regulating
+    - using
+
+:::
+
+::: {.callout-note collapse=true}
+
+## How?
+
+We will be using the Python programming language, which is one of the most popular programming languages because it is both beginner-friendly and very powerful.
+
+The material is considered in the context of the reformed Christian perspective.
+
+:::
+
+# Learning Outcomes
+
+This course introduces computing as a problem solving discipline with a particular emphasis on programming. Students who complete this course will demonstrate that they can:
+
+-   Design algorithms and data types/structures to solve computational problems, using:
+    -   primitive data types, expressions and arrays/lists;
+    -   basic control structures: sequences, selection and repetition
+    -   subprograms (methods/functions;
+    -   classes;
+-   Find and fix syntactic and logical problems in programs;
+-   Use an Integrated Development Environment (IDE) to develop a program;
+-   Understand the wider implications of encoding intelligence in the form of algorithms.
+
+# Schedule
+
+::: {.callout-note collapse=true}
+
+# Schedule
+
+Subject to change. Updates will be made here and on Moodle.
+
+<style>
+tr:nth-child(even) {
+  background-color: #EFEFEF!important;
+}
+</style>
+
+| Week   | Starts | Topic                                                          | Activities                              | Holidays                     |
+|--------|--------|----------------------------------------------------------------|-----------------------------------------|------------------------------|
+| 1      | Jan 15 | Introduction                                                   | Perspectives 1                          | No Monday (MLK Day)          |
+| 2      | Jan 22 | Variables and Expressions                                      | Quiz 1                                  |                              |
+| 3      | Jan 29 | Data Types                                                     | Perspectives 2                          |                              |
+| 4      | Feb 5  | Branching                                                      | Quiz 2                                  |                              |
+| 5      | Feb 12 | Repetition                                                     | Perspectives 3  & Project brainstorming |                              |
+| 6      | Feb 19 | Functions                                                      | Quiz 3                                  |                              |
+| 7      | Feb 26 | Classes                                                        | Perspectives 4    |                              |
+| Break  | Mar 4  | *Spring Break*                                                 | \-                                      |                              |
+| 8      | Mar 11 | Practicing with lists and dictionaries                         | Quiz 4                                  |                              |
+| 9      | Mar 18 | Practicing with strings                                        | \-                                      | No Wed / Thu      (Advising) |
+| 10     | Mar 25 | Graphical User Interfaces                                      | Quiz 5                                  | No Friday (Easter)           |
+| 11     | Apr 1  | Files and modules                                              | Project Walkthrough                   | No Monday (Easter)           |
+| 12     | Apr 8  | Testing and exception handling                                 | Quiz 6                                  |                              |
+| 13     | Apr 15 | Scientific computing basics                                    | Perspectival Reflection on Project                   |                              |
+| 14     | Apr 22 | Other topics (as demanded - web, multimedia, graphics, gaming) | \-                                      |                              |
+| Finals | Apr 29 | *Project showcasing and presentation*                          | \-                                      |                              |
+
+:::
+
+# Staff
+
+-   Professor Fernando Pasquini Santos, fs33 %at& calvin.edu
+  - office hours: at NH291, Tuesdays 9-9:50am, Wednesdays 9:05-10:20 am.
+-   Lab assistant: Grace Van Farowe, gev22 %at& calvin.edu
+-   Grader: Heyab Robel, hr29 %at& calvin.edu
+
+# Communication
+
+Outside of class, we'll use:
+
+-   Moodle:
+    -   After each class, you will be invited to answer a **feedback form** on Moodle, to inform about your progress in the course and what is still not clear to you. This won't be graded, but will be a nice way to give me feedback and orient my next classes in a way that is good for you.
+    -   Besides that, you can also use our **Q&A Forum** to post *questions* on assignments, concepts discussed in class, or when you have problems getting code to run. Post *answers* as well. You might be able to provide a good answer before the course staff even sees the question!
+    -   We also have a General Topics forum, in case you want to post notes on articles or events that might be of interest to the class. **In general, don't post code publicly**. If you have to include code, make the post private first so the course staff can decide if it's ok to share.
+-   Email --- Please restrict email use for requests for accommodations (e.g.: missing class; disabilities; mental health; etc.).
+
+You'll generally find us responsive on Monday through Friday, but less so on the weekend, particularly Sunday. You're free to schedule your work as best works for you, but we'll be trying to observe a Sabbath in our own schedules.
+
+# Materials
+
+::: {.callout-note collapse=true}
+
+# Texts
+
+#### [**ZyBooks**](http://learn.zybooks.com/) 
+
+We will be using an online text called *Programming in Python 3 with ZyLabs*. The text will cost \$89 and can be accessed as follows:
+
+    1.  Sign up at [learn.zybooks.com](http://learn.zybooks.com/) (see Zyante's [privacy policy](https://www.zybooks.com/privacy-policy/)). Note that you must use your Calvin e-mail address (e.g., `xyz27@calvin.edu`).
+    2.  Enter zyBook code: `**CALVINCS108PasquiniSantosSpring2024**`
+    3.  Click *Subscribe*.
+
+You'll also see that ZyBooks provides reading, lab and homework assignments matching those specified in the unit preparation pages on Moodle (find these under the "Assignments" tab on the far bottom right of our course textbook page). Though the ZyBooks text is interactive, you do have the [option to print a PDF version](https://zybooks.zendesk.com/hc/en-us/articles/360007537533-How-long-do-subscriptions-last-Can-I-extend-Can-I-save-or-print-) of each chapter, which can be useful as a reference after the course is over and the ZyBooks electronic submission has ended.
+
+#### Website and class handouts
+
+This website will be constantly updated with concepts and activities we will follow through in class. Every class section will have a handout that I'll handle to you printed so as to help you following through our activities.
+
+#### Perspectives readings
+
+Sseveral articles on programming that will be available on [**Perusall**](https://app.perusall.com/courses/23-fa-cs-104-b-applied-computing). We expect you to interact and discuss with these texts.
+
+::: {.callout-important}
+The articles on reflections about programming that we are going to read are presenting **lots of different opinions that may not reflect what I, myself, subscribe to**. And you also are not required to agree with them! The idea of choosing them as reading assignments is just to put these ideas on the table so we can develop a healthy and friendly discussion on these themes, which sometimes may not be simple. So, take this also as an exercise in tolerance, sympathy and respect. We can still learn a lot with people we don't agree completely.
+:::
+
+:::
+
+::: {.callout-note collapse=true}
+
+# Work Environment
+
+We will use [Thonny](https://thonny.org/) as the integrated development environment of our programming exercises in Python.
+
+The labs in SB 354 & 372 are pre-configured to support this course, so if you are on campus, you are free to do all your course work there. If you are off campus, you have two options: a) using your own machine or b) accessing the lab machines remotely. We suggest that you install the software on your own machine and then use the option you find most convenient.
+
+1.  Install Thonny in your own machine Install the latest version of Thonny development environment for your system type. Thonny has a current version of Python built-in and should work without further configuration; or
+2.  Access the lab machines remotely There are a limited number of remote and virtual machines available for CS courses. You can find:
+    -   the list of machines here: <https://remote.cs.calvin.edu>
+    -   the instructions for using those machines here: <https://cs.calvin.edu/sysadmin/remoteaccess-guacamole.php>
+
+:::
+
+# Activities
+
+## Weekly
+
+1.  **Preparation reading (zyBooks textbook)**: you'll do these readings as a preparation for introducing new unit on Monday. As you work through the text, complete the "participation" activities in the specified sections as you go. You can skip the "challenge" activities.
+
+2.  **POGIL Activity**: when introducing a new Unit on every Monday, we will proceed according to a POGIL approach (Process Oriented Guided Inquiry Learning). We will form teams of three students in order to solve a set of questions and exercises. The teams will need to have:
+
+    -   a programmer (runs the exercises in Thonny)
+    -   a recorder (writes the team's answers to the exercises)
+    -   a manager/presenter (keeps the team on track; interacts with class)
+
+3.  **Lab**: we'll go through a series of programming assignments during our lab classes **every Thursday**. These are posted as assignments in [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023), where you and you partner will also submit your solutions.
+
+    -   **Lab attendance is REQUIRED**. If you cannot come, please let me know in advance. Not attending the lab without legitimate reasons will receive 0 points.
+
+    -   If feasible, *you will work in pairs during the lab exercises*. When you work in a pair, one of the partners should submit one copy of your work with both of your names and usernames on it. It's wise for both partners to have copies of your shared solution. Your partner must be someone else from this course this semester.
+    -   The lab is configured to support the course work, but if you're prepared to do some administrative work, you can configure your own machine to do the lab work. Alternatively, you can login remotely to the labs using a web browser.
+    
+4. **Homework**: these will also be posted as assignments on our [zyBooks](https://learn.zybooks.com/zybook/CALVINCS104Fall2023) course page. You should complete the exercises **individually** and upload them to the zyBooks assignment.
+
+## Every other week
+
+5.  **Perspectives reading (Perusall)**: you'll read an article about common themes in programming and their wider societal implications. After this reading, you will be asked to make comments on the text and interact with your colleagues responses. Perusall has many nice tools to make this a nice shared reading experience. Try not to do it just for the sake of getting the assignment done and get the grade.
+
+6.  **Quizzes**: usually **on Fridays**, we will have a 15 to 20 minute **closed-notes** quiz on Moodle reviewing and applying the concepts we got from the unit. The quiz will be done in classroom, so you will want to bring your laptop or any other device. **We will also have a Quiz during the Finals week!**
+
+## Final Project
+
+The final project is an opportunity for you to showcase what you have learned in this class, and begin applying your newfound knowledge and abilities to a problem that interests you personally.
+
+It is to be an individual or a small group project, although I hope that in either case you consult with others in the class and with professors (if possible) for help in design, implementation, and debugging.
+
+More details are found on our page [Final Project](finalproject.qmd)
+
+## Deadlines and late work policy
+
+Unless stated otherwise, the assignment submissions are **due by midnight** of the due date. The Moodle calendar will list these due dates/times.
+
+*Anything submitted after the dealine is late, unless you have made prior arrangements with us.* For each late assignment, you will be charged 10% for each business-day that you are late (e.g., if an assignment is due on Friday, you may turn it in on Monday at 10% off, Tuesday at 20% off and so on) and you need to email us to tell us which assignment you're submitting late and how late it is. We will not accept work that is more than one week late unless you talk to us about the circumstances and negotiate a late-submission plan. We will generally grant up to 30% for these negotiated plans. We will also grant you 4 grace days with no penalty, no questions asked. Please note that grace days do not apply to the quizzes or the final project, and that we do not accept or negotiate for late work after the last day of class. If there are exceptional circumstances, please talk to us so we can work something out.
+
+# Grading
+
+We will compute your final grade as follows:
+
+**CS 108 (3 credits)**
+
+-   5% --- Preparation readings (zyBooks) (individual)
+-   10% --- Perspectives readings (Perusall) (individual)
+-   20% --- Homework (individual)
+-   30% --- Quizzes (individual)
+-   35% --- Final Project (group)
+
+We'll throw out your lowest quiz score.
+
+**CS 108L (1 credit)**
+
+-   100% — Lab exercises (pair programming)
+
+Your grades will be available in the Moodle gradebook.
+
+# Study Sessions
+
+For this course, Calvin makes available a tutoring service for helping with study. Here are the advantages of participating at Study Sessions:
+
+-   4-8 hours of tutoring per week
+-   A nice place to do homework and ask questions
+-   An entire room of people working through the same challenges
+-   A chance to make friends and study partners
+
+The service is completely free and flexible. For more information, visit <https://calvin.edu/go/tutor>
+
+# Use of Technology
+
+We believe that technology is not neutral: we use them, but they also affect us. Consequently, **technology in the classroom changes things**. Studies suggest that [internet-enabled electronic devices in the classroom reduces student performance](https://www.insidehighered.com/news/2018/07/27/class-cellphone-and-laptop-use-lowers-exam-scores-new-study-shows). We *will* use technology in class, but with limits:
+
+-   You may use a smartphone or laptop to complete retrieval quizzes and polls during designated times.
+-   You may use laptops to take notes or attempt programming tasks.
+-   Beyond those uses, technology use in class should be limited to critical messages only.
+
+Furthermore, in general, it's not a good idea to copy code from Web sources or to use large language models (e.g., ChatGPT). Think of that as the same as cooking ready-made dinner in your microwave oven versus really learning how to cook. The results may sometimes be acceptable, but won't be healthy and won't put you in contact with ingredients and processes. As Christians, I believe we need to write the most humane and hospitable code we can, as a way of serving others and reflecting God's glory. And for that, we need the disposition to fully engage with computational logic as a way of honoring God's wisdom reflected in programming. Automating the process too much may alienate us - and our fellow people - from that, and cause a lot of problems.
+
+This doesn't mean I'm all against the use of generative AI. But we need to do that responsibly. There's always a risk that these tools may fail and we may even not perceive it - not to mention the privacy issues. For more info on responsbile use of generative AI, see [this page](https://calvin.edu/offices-services/provost/rac/writing-with-integrity/ai-text-generators/index.html).
+
+# Academic Integrity
+
+Code re-use can be a valuable practice in computing, but reusing code or algorithms without attribution is plagiarism. If you've copied code with attribution, we'll grade you on the code you wrote not on the code you copied. If we detect copying without attribution, i.e., plagiarism, we'll be forced to give you a failing grade for the assignment and perhaps for the course. Additionally, we will report you to the office of Judicial Affairs, which may result in the incident being part of your student record.
+
+The student-faculty relationship is based on trust and mutual respect, which can be seriously undermined by the suspicion or reality of academic dishonesty. Academic Dishonesty includes, but is not limited to, plagiarism (students plagiarize when they do not credit the sources of their writing - the words, information, ideas, or opinions of others), improper group work, reuse of a paper from another course and/or cheating on a test. Students are encouraged to speak to their faculty member with specific questions related to academic dishonesty. For further clarification or information, please visit <https://calvin.edu/directory/policies/academic-integrity-policy>.
+
+# Special Circumstances
+
+Occasionally there are special circumstances that require that course policies be adjusted for a particular student. In such cases, it is the responsibility of the student to inform us of the situation as soon as possible, so that the appropriate arrangements can be made. This includes, but is not limited to, students with documented disabilities.
+
+Calvin University is committed to providing access to all students. If you need additional accommodations to succeed in this class, please contact Disability Services in the Center for Student Success (disabilityservices\@calvin.edu) as soon as possible to explore what arrangements can be made. The three of us (student, instructor, and Disability Services) will work together to come up with an appropriate solution.
+
+We will give a grade of Incomplete (I) only in unusual circumstances that have been confirmed by the Student Life office.
+
+# Diversity and Inclusion
+
+I intend for this class to be an environment where we equally respect people of every ethnicity, gender, socioeconomic background, political learning, religious background, etc. And I invite your help.
+
+We will not always do this well. If you or someone else in this class is hurt by something I say or do in class, I would like to work to remedy it. I'll welcome this feedback in whatever way is comfortable for you: in public, in private, or anonymously, via my department chair (Professor VanderLinden), or via a report to [Safer Spaces](https://calvin.edu/offices-services/safer-spaces/) or the [provost's office](http://www.calvin.edu/go/comments-on-faculty/).
+
+# Etiquette and Wellness
+
+I like to understand education as forming **a community of friends who love knowledge** (and the God from whom all knowledge comes). So as friends and community, we expect to treat each other with respect and courteous communication practices throughout the semester in all venues, including online forums. No personal attacks, trolling, or other kinds of bad language will be tolerated.
+
+We are not just developing technical skill; we are also developing virtue and character *through the* acquisition of a technical skill. Please, take advantage of this opportunity.
+
+Furthermore, a wide range of things can interfere with your learning: trouble concentrating, stress/anxiety, relationship troubles, family situations, food or housing insecurity, substance use, and many more. You are encouraged to care well for yourself by keeping a consistent sleep schedule, eating well, avoiding drugs and alcohol, exercising, and taking time to relax and connect with friends and family.
+
+Also, learning how to ask for help is an important part of the college experience. Many people on campus are eager to support you. The [Center for Counseling and Wellness](https://calvin.edu/offices-services/counseling-and-wellness/) sees one out of five students each year and can connect you with a variety of mental health resources on and off campus. You can also reach out to me, another faculty/staff, a friend, or a family member you trust for help getting connected to support. You are not alone, and help is available!
+
+![](/img/arrow-left-square.svg){width=0}
+![](/img/arrow-right-square.svg){width=0}
+![](/img/arrow-up-square.svg){width=0}
